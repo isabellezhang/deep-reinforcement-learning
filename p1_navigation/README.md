@@ -34,6 +34,8 @@ The task is episodic, and in order to solve the environment, our agent must get 
 
 Follow the instructions in `Navigation_solution.ipynb` to train the Deep Q-network agent and watch a trained agent!  
 
+The code present in `Navigation_solution.ipynb`, `model.py`, and  `dqn_agent.py` are adapted from the code that Udacity published as part of the Udacity's Deep reinforcement learning nanodegree, lesson Deep Q-networks.
+
 ### (Optional) Challenge: Learning from Pixels
 
 After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!
