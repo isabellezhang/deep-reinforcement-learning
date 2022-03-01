@@ -1,3 +1,4 @@
+# the following code is adapted from the code that Udacity published as part of the Udacity's Deep reinforcement learning nanodegree, lesson Deep Q-networks 
 import numpy as np
 import random
 from collections import namedtuple, deque
