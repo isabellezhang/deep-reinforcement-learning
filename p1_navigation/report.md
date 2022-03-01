@@ -59,7 +59,9 @@ There are two other python files that supports our learning algotirhm:
   * 1st reLU+linear hidden layer with 74 nodes
   * 2nd reLU+linear hidden layer with 74 nodes
   * output layer with 4 nodes (4 actions)
- 
+
+The code present in `Navigation_solution.ipynb`, `model.py`, and  `dqn_agent.py` are adapted from the code that Udacity published as part of the Udacity's Deep reinforcement learning nanodegree, lesson Deep Q-networks.
+
 ### Ideas of future work/further improvement
 1. Double DQN
    - Deep Q-learning tends to overestimate the action values since in the update step of the action values, we always pick the action with maximum action value even in the very early stage where the action values are still very noisy numnbers. To help with this issue, we can use Double Q-learning where we select the best action using our local Q network but use the target Q network to evaluate the action. 
