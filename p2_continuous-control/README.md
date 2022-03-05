@@ -45,3 +45,5 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Instructions
 
 Refer to `Continuous_Control_solution.ipynb` for instructions on how to train the agent and also watch a trained agent behaves in the environment. There are two other files `model.py`, `ddpg_agent.py` that supports the training of the agent.
+
+The code present in `Continuous_control_solution.ipynb`, `model.py`, and  `ddpg_agent.py` are modified based on ddpg framework from https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum
